@@ -12,7 +12,7 @@ class App extends Component {
         <NavBar />
         <Switch>
           <Route exact path ='/' render = {() => <Main />}></Route>
-          <Route exact path ='/home' render = {() => <AppMain />}></Route>
+          <Route exact path ='/app' render = {() => <AppMain />}></Route>
         </Switch>
         <header className="App-header">
 
