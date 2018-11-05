@@ -9,13 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
-
         <Switch>
           <Route exact path ='/' render = {() => <Main />}></Route>
-
-
         </Switch>
-
         <header className="App-header">
           <a
             className="App-link"
@@ -24,7 +20,6 @@ class App extends Component {
             rel="noopener noreferrer"
           >
             Learn React
-
           </a>
         </header>
       </div>

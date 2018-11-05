@@ -5,11 +5,8 @@ const initialState = {
   user: null
 }
 
-
-
 export function authentication(state=initialState, action) {
   switch(action.type) {
-
 
     case 'GET_USER':
       return {user: action.user}
