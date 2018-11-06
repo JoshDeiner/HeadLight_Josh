@@ -1,5 +1,5 @@
 ## HeadLight FrontEnd Project Repo
 
-### install depdencies, run through yarn/npm
+### install depdencies, run through npm
 
 ### React, Redux
